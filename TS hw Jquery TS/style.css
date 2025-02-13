@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    button{
+        border-radius: 5px;
+        padding: 5px;
+        width: 100px;
+        margin-top: 10px;
+        background-color: black;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+.food{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgb(48, 47, 45);
+    img{
+        height: 50px;
+        width: 50px;
+    }
+}
+.colv{
+    margin-top: 10px;
+}
+.price{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.list_food{
+    display: none;
+    opacity: 90%;
+    position: absolute;
+}

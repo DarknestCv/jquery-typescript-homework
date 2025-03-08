@@ -22,3 +22,7 @@ const conve = (arr) => {
     return arr.map((str) => parseFloat(str));
 };
 console.log(conve(["5", "20", "12"]));
+const showUserInfo = ({ name, age, pet }) => {
+    console.log(`Name: ${name}, Age: ${age}, Pet: ${pet}`);
+};
+showUserInfo({ name: "Alice", age: 28, pet: "Dog" });

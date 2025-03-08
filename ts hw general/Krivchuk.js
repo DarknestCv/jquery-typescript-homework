@@ -26,3 +26,8 @@ const showUserInfo = ({ name, age, pet }) => {
     console.log(`Name: ${name}, Age: ${age}, Pet: ${pet}`);
 };
 showUserInfo({ name: "Alice", age: 28, pet: "Dog" });
+function fuik(arr) {
+    return new Set(arr);
+}
+const bob = ['banana', "monkey", 12, 'konyx', 32, 43, true, 46, undefined, null];
+console.log(fuik(bob));
